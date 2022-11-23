@@ -31,7 +31,7 @@ def set_workdir():
 
 WORKDIR = set_workdir()
 
-BINDER = [] # Will be set by the make_binder function in file.py
+
 
 '''
 def read_vars_file():

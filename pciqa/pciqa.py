@@ -1,8 +1,7 @@
-from file import make_binder
+import file as f
 
 
 def main():
-    make_binder()
 
     def test_checkboxes():
         """
@@ -17,8 +16,9 @@ def main():
             if callable(item):
                 item()
     test_checkboxes()
-
+    
     '''
+    
         def test_dates():
             pass
 
